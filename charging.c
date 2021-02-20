@@ -134,6 +134,10 @@ int main(int argc, char** argv)
         }
     }
 
+
+    LOG("INFO", "Disabling cursor");
+    SDL_ShowCursor(SDL_DISABLE);
+
     if (flag_test) {
         LOG("INFO", "creating test window");
         window = SDL_CreateWindow("Charge - Test Mode",
