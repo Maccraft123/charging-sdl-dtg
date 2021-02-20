@@ -1,8 +1,6 @@
-# charging-sdl
+# charging-sdl-dtg
 
-[![build status](https://travis-ci.org/postmarketOS/charging-sdl.svg?branch=master)](https://travis-ci.org/postmarketOS/charging-sdl)
-
-Charging screen for the initramfs.
+Charging screen for the initramfs. Fork with Deb-to-go compatibility
 
 ![photo](https://wiki.postmarketos.org/images/d/d8/Charging-sdl.jpg)
 
@@ -11,10 +9,10 @@ Charging screen for the initramfs.
 ## TODOs
 
 - [x] display whether or not the device is charging
-- [ ] speed up the font atlas rendering
+- [ ] add option to boot rest of system from it using built-in buttons
+- [ ] backlight control
 - [ ] display charging type
 - [ ] display battery temperature
-- [ ] show battery voltage
 
 ## build
 
